@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+*{margin:0; padding:0;}
+body{font-size:12px; line-height:18px; color:#121212; font-family:'Nanum Gothic', 'sans-serif';}
+ul, ol{list-style:none;}
+a{text-decoration:none; color:#121212;}
+img{border:0; vertical-align:top;}
+.modal.modal-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .modal.modal-center:before {
+    display: inline-block;
+    vertical-align: middle;
+    content: " ";
+    height: 100%;
+  }
+}
+
+.modal-dialog.modal-center {
+  display: inline-block;
+  text-align: left;
+  vertical-align: middle;
+}

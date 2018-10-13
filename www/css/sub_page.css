@@ -1,0 +1,129 @@
+@CHARSET "UTF-8";
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+a:HOVER { text-decoration: none !important; }
+a:VISITED { text-decoration: none !important; }
+
+#body-wrap { width: 100%;}
+#doc-wrap { position: absolute; font-size: 11px; font-family: 'Nanum Gothic', Dotum,Verdana; width: 100%; height: 100% }
+#nav-main { width: 159px; height: 100%; background: url("../images/common/bg-main-menu.jpg") repeat-y; float:left; margin: 0; padding: 0; color: #fff }
+#nav-main-menu { margin-top: 15px }
+#nav-sub { width: 162px; height: 100%; border-right: 1px solid silver; float:left; margin:0; padding: 0 }
+#content { height:100%; overflow: hidden; padding-top: 1px;}
+
+#main-menu-table2 { width:147px; margin-left: 10px; text-align: right; font-size: 13px; font-family: 'Nanum Gothic', Verdana; padding: 0px; border-spacing: 0 }
+#main-menu-table2 td { padding: 0 5px; margin:0; height:27px; }
+#main-menu-table2 a { text-decoration: none; color: white }
+#main-menu-table2 a:hover { font-weight: 700 }
+
+#main-menu-table { width:137px; margin-left: 20px; text-align: right; font-size: 13px; font-family: 'Nanum Gothic', Verdana; padding: 0px; border-spacing: 0 }
+#main-menu-table td { padding: 0 12px; margin:0; height:27px; }
+.menu-line-cell { margin: 0; padding: 0; height:2px !important; background: url("../images/common/line-main-menu.png") no-repeat right top; }
+.main-menu-active { background: url("../images/common/bg-selected-main-menu.png") no-repeat; font-weight: 700 }
+#main-menu-table a { text-decoration: none; color: white }
+#main-menu-table a:hover { font-weight: 700 }
+#nav-main-bottom { position: absolute; bottom: 40px; vertical-align: bottom; width: 150px; text-align: right }
+#nav-main-bottom a { text-decoration: none; color: white }
+#nav-main_bottom a:hover { font-weight: 700 }
+
+#sub-top-menu { font-size: 10px; margin-top: 5px; text-align: center }
+#sub-top-menu a { margin-right: 4px; font-size: 9px; font-family: Arial; letter-spacing: -1px; color: #777 }
+#sub-top-menu .active { color: #f5b620 }
+#sub-menu-container { margin-left: 15px; margin-top: 66px; border-top: 1px solid #dcdcdc; border-bottom: 1px solid #dcdcdc; height: 263px; }
+#sub-menu-table { width: 125px; margin-left: 10px; margin-top:24px; margin-bottom:10px; font-family: 'Nanum Gothic', Verdana; font-size: 12px; font-weight: 600; border-top: 1px solid #dcdcdc; padding:0px; border-spacing: 0 }
+#sub-menu-table td { border-bottom: 1px solid #dcdcdc; padding: 0px 1px; height:26px }
+.sub-menu-active { color: #f1b51c !important; font-weight: 700 }
+#sub-menu-table a { text-decoration: none; color: #787878 }
+#sub-menu-table a:hover { font-weight: 800; color:#555 }
+.sub-menu-small { font-size: 11px; letter-spacing: -0.1px }
+
+.child-menu-container { position: absolute; left:322px; top:137px; border: 1px solid #ccc; width:100px; background-color: white }
+.child-menu-container a { text-decoration: none; color: #787878 }
+.child-menu-container a:hover { font-weight: 800; color:#555 }
+.child-menu-container div { padding: 2px 6px }
+
+#content-frame { width: 100%; height: 100%; overflow: auto }
+#content-wrap { width: 900px; color: #7d7d7d; padding-bottom: 36px; min-height: 100% }
+#banner-container { border-bottom: 1px solid #dcdcdc; height: 263px }
+#banner-image { width:722px; height:263px }
+.history-table { width: 100%; padding: 0; margin: 0; border-spacing: 0; border-bottom: 1px solid #dcdcdc; font-size: 11px; line-height:1em;  margin-top: 30px}
+.ht-year { font-size: 16px; font-family: Impact, Arial; color: #f1b51c; vertical-align: top; padding-top:15px !important }
+.ht-month { font-size: 9px; width: 45px; text-align: center }
+.ht-text { font-size: 11px }
+.ht-line { border-top: 1px solid #dcdcdc; padding-top: 10px }
+.ht-bottom { padding-bottom: 10px }
+#navi-path { float: right; margin-top:-16px; font-size:11px; font-family:Verdana,Dotum; }
+#navi-path a { text-decoration: none; color: #555 }
+
+.product-main-table {display: inline-block; *display: inline; zoom: 1; width:164px; height:186px; border: 1px solid #ddd; margin-right: 2px; margin-bottom: 5px; border-collapse: collapse; border-spacing: 0; padding: 0 0 0 0 }
+.product-main-table .image-cell {border-bottom: 1px solid #ddd; height:156px; width: 164px; text-align: center; vertical-align: middle}
+.product-main-table .label-cell {width: 164px; height: 22px; background-color: #fbfbfb; text-align: center; vertical-align: middle; color: #444; font-size: 12px}
+.product-path { width: 100%; text-align: right; margin: 6px 0; mar font-size: 11px; color: #888 }
+.product-path a { text-decoration: none; color: #787878 }
+.product-path a:hover { font-weight: 800; color:#555 }
+
+.product-desc { font-size: 20px; color: #f0bc35; margin-top: 20px }
+.product-diagram { margin: 46px 0 23px 50px }
+.product-unit { width: 100%; text-align: right }
+.product-table { width: 100%; border-collapse: collapse; font-size: 11px; border-top: 2px #ffac36 solid; border-bottom: 1px #c5c5c5 solid; }
+.product-table th { text-align: center; background-color: #f9f9f9; border-left: 1px solid #dddddd; border-top: 1px solid #dddddd; padding: 4px; color: #434746  }
+.product-table th:first-child { text-align: center; background-color: #f9f9f9; border-left: none; border-top: 1px solid #dddddd; padding: 4px; color: #434746  }
+.product-table td { text-align: center; border-left: 1px solid #dddddd; border-top: 1px solid #dddddd; padding: 5px; color: #6b6b6b}
+.product-table td:first-child { text-align: center; border-left: none; border-top: 1px solid #dddddd; padding: 5px }
+
+.attachedFile{
+  background: #f5f4f4;
+}
+.btn-default {
+    color: #333;
+    background-color: #FFF;
+    border-color: #CCC;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -moz-user-select: none;
+    background-image: none;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+}
+
+.btn-sm, .btn-group-sm > .btn {
+    padding: 4px 8px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+
+input, button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    cursor: pointer;
+}
+
+button, select {
+    text-transform: none;
+}
+button {
+    overflow: visible;
+}
+button, input, optgroup, select, textarea {
+    margin: 0px;
+    font: inherit;
+    color: inherit;
+}
+/** {
+    box-sizing: border-box;
+}*/

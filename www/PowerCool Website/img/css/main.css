@@ -1,0 +1,42 @@
+@CHARSET "EUC-KR";
+/*header*/
+#wrap{min-width:1000px;}
+#header{width:100%; height:114px;}
+#headerin{width:1200px; margin:0 auto;}
+#headerin:after{content:""; display:block; clear:both;}
+.logo{float:left;}
+.utill{float:right;}
+.utill .login{float:left; margin-right:15px;}
+.utill a{display:block; padding:5px 10px; font-size:14px;  margin-top:28px;}
+.lang{float:right; padding-top:2px;}
+.lang p{float:left; margin-left:2px; line-height:12px;}
+.lang p:last-child a{border-left:1px solid #ccc;}
+.gnbWrap{width:100%; height:50px; background:#069cfe;}
+.gnb{width:1200px; margin:0 auto;}
+.gnb ul:after{content:""; display:block; clear:both;}
+.gnb li{float:left; font-size:18px; font-weight:bold; text-align:center; line-height:50px; position:relative;}
+.gnb li .m{display:block; width:240px; color:#fff;}
+.gnb li .sub{display:none; width:240px; position:absolute; top:50px; left:0;}
+.gnb li:hover .sub{display:block;}
+.gnb li .sub li{float:none; text-align:center;}
+.gnb li .sub li a{display:block; color:#222a79; background:#eee; font-size:16px;}
+.gnb li .sub li .pt10{padding-top:10px;}
+.gnb li .sub li .pb10{padding-bottom:10px;}
+/*container*/
+#container .visual{height:560px; background:url(../img/visual.jpg) no-repeat center 0; text-indent:-9999px;}
+.contentWrap{height:290px; background:#f5f4f4;}
+.content{width:1200px; margin:0 auto; padding-top:45px;}
+.content:after{content:""; display:block; clear:both;}
+.content li{float:left; width:329px; border-left:1px solid #ccc; padding:0 35px; position:relative; padding-bottom:40px;}
+.content li h3{font-size:18px; margin-bottom:50px;}
+.content li .text1{position:absolute; top:35px; left:35px; font-size:16px; color:#666; font-weight:bold;}
+.content li .text2{font-size:14px; color:#666; line-height:24px;}
+.content li .more{display:block; text-indent:-9999px; width:10px; height:11px; background:url(../img/more.jpg) no-repeat; position:absolute; top:0; right:35px;}
+.content li .conBtn{display:block; width:130px; height:25px; border:1px solid #ccc; text-align:center; line-height:25px; position:absolute; bottom:0; right:35px; font-size:12px; color:#3cb5ea; background:#fff;}
+.content .borderR{width:328px; border-right:1px solid #ccc;}
+/*footer*/
+#footer{width:100%; height:104px; background:#d7d7d7; border-top:1px solid #ccc;}
+#footerin{width:1200px; margin:0 auto;}
+#footerin .company{font-style:normal; text-align:center; font-size:14px; padding-top:30px;}
+#footerin .company span{font-size:16px; margin-right:10px;}
+#footerin .copy{margin-top:10px; font-size:12px; text-align:center;}

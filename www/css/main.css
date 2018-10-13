@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+#wrap{width:100%;}
+#header{min-width:1200px; height:104px;}
+#headerin{width:1200px; margin:0 auto;}
+#headerin:after{content:""; display:block; clear:both;}
+
+.logo{float:left;}
+.utill{float:right;}
+.utill .login{float:left; margin-right:15px;}
+.utill a{display:block; padding:5px 10px; font-size:14px;  margin-top:28px;}
+.lang{float:right; padding-top:2px;}
+.lang p{float:left; margin-left:2px; line-height:12px;}
+.logout p{float:left; margin-left:2px; line-height:16px;}
+.lang p:last-child a{border-left:1px solid #ccc;}
+.gnbWrap{min-width:1200px; background:#069cfe;}
+.gnb{width:1200px; margin:0 auto;}
+.gnb ul:after{content:""; display:block; clear:both;}
+.gnb li{float:left; font-size:16px; font-weight:bold; text-align:center; line-height:40px; position:relative;}
+.gnb li .m{display:block; width:300px; color:#fff; font-weight:bold;}
+.gnb li .sub{display:none; width:180px; position:absolute; top:40px; left:50%; margin-left:-90px; z-index:100;}
+.gnb li:hover .sub{display:block;}
+.gnb li .sub li{float:none; text-align:center; border-left:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+.gnb li .sub li a{display:block; color:#222a79; background:#f5f4f4; font-size:12px; line-height:35px; font-weight:600; padding:5px 0;}
+/*.gnb li .sub li .pt10{padding-top:5px;}
+.gnb li .sub li .pb10{padding-bottom:5px;}*/
+.btnMenu{position:absolute; top:-440px; right:20px;}
+.btnMenu p{margin-bottom:17px;}
+.btnMenu p a{display:block; width:82px; height:82px; text-indent:-9999px; background:url(../img/btn_menu.png) no-repeat;}
+.btnMenu .bm2 a{background-position:0 -99px;}
+.btnMenu .bm3 a{background-position:0 -200px;}
+.btnMenu .bm4 a{background-position:0 -299px;}
+/*container*/
+#container{min-width:1200px;}
+#container .visual{width:1200px; margin:0 auto;}
+#container .visual img{width:1200px; height:484px;}
+.contentWrap{min-width:1200px; height:243px; background:#f5f4f4;}
+.content{width:1200px; margin:0 auto; padding-top:35px; position:relative;}
+.content:after{content:""; display:block; clear:both;}
+.content li{float:left; width:329px; height:150px; border-left:1px solid #ccc; padding:0 35px; position:relative; padding-bottom:20px;}
+.content li h3{font-size:16px; margin-bottom:50px;}
+.content li .text1{position:absolute; top:35px; left:35px; font-size:14px; color:#666; font-weight:bold;}
+.content li .text2{font-size:12px; color:#666; line-height:20px;}
+.content li .more{display:block; text-indent:-9999px; width:10px; height:11px; background:url(../img/more.jpg) no-repeat center; position:absolute; top:-10px; right:25px; padding:10px;}
+.content li .conBtn{display:block; width:120px; height:20px; border:1px solid #ccc; text-align:center; line-height:20px; position:absolute; bottom:0px; right:35px; font-size:11px; color:#3cb5ea; background:#fff; font-weight:bold;}
+.content .borderR{width:328px; border-right:1px solid #ccc;}
+/*footer*/
+#footer{min-width:1200px; height:80px; background:#d7d7d7; border-top:1px solid #ccc;}
+#footerin{width:1200px; margin:0 auto;}
+#footerin .company{font-style:normal; text-align:center; font-size:12px; padding-top:15px;}
+#footerin .company span{font-size:14px; margin-right:10px;}
+#footerin .copy{margin-top:5px; font-size:12px; text-align:center;}
+/*sub common*/
+.subgnbWrap{background:#3e519f;}
+.subContainer{width:1200px; margin:70px auto;}
+.subContainer:after{content:""; display:block; clear:both;}
+.subNav{border:2px solid #ccc; margin-bottom:30px;}
+.lnb{width:200px; float:left; padding-left:25px;}
+.lnb li{padding-left:30px; border-bottom:1px solid #ccc;}
+.lnb li a{display:block; padding:13px 0; font-size:14px;}
+.lnb li:first-child{padding:5px 30px; line-height:40px; background:#f5f4f4; font-weight:bold;}
+.lnb li:first-child a{font-size:16px;}
+.lnb li.wide{padding:5px 10px; line-height:40px; background:#f5f4f4; font-weight:bold;}
+.online{padding:10px 0 30px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
+.online .text1{font-size:16px; color:#5f8fe0; font-weight:bold; padding-left:100px; background:url(../img/online.jpg) no-repeat 10px 0; height:70px; line-height:100px; }
+.online .text2{text-align:center; color:#666; font-size:13px; margin-bottom:20px;}
+.online .onlineBtn{padding:5px 20px; color:#3399cc; text-align:center; border:1px solid #ccc; margin-left:25px; margin-bottom:20px;}
+.searchWrap{border-bottom:1px solid #ccc;  padding:20px 0 10px 0;}
+.searchWrap .searchN{width:100px; height:auto; text-indent:-9999px; background:url(../img/naver.jpg) no-repeat 20px 0;}
+.searchWrap .searchD{background:url(../img/daum.jpg) no-repeat 20px 0;; text-indent:-9999px;}
+.searchWrap input{margin:10px 0 20px 15px; width:120px; height:26px; background:url(../img/naver_search.jpg) no-repeat; border:0; padding-left:10px;}
+.searchWrap #searchD{background-image:url(../img/daum_search.jpg); height:28px;}
+.searchWrap .btnN{background:#0a8e2c; color:#fff; padding:5px 5px;}
+.searchWrap .btnD{border:1px solid #2f78c0; border-radius:5px; padding:3px 5px 4px 5px;}
+/*powercool_introduce*/
+.lnb .on{background:#8ccff0;}
+.subCont{width:900px; float:right; margin-bottom:20px;}
+.subCont h3{font-size:20px; line-height:20px; margin-bottom:40px;}
+.subCont h3 span{color:#3399cc;}
+.subCont .introduce1 img{width:100%; margin-bottom:20px; border:1px solid #ccc;}
+.subCont p{font-size:14px; margin-bottom:10px; line-height:25px; text-align:justify; text-justify:inter-word;}
+/*powercool_ceo*/
+.ceo1 img{width:900px; height:300px; border:0;}
+.ceo2 img{width:900px; height:235px;}
+.ceotext{margin-top:50px;}
+/*powercool_group*/
+.group1 img{width:900px; height:58px;}
+.group2 img{width:760px; height:632px;}
+/*powercool_location*/
+.loc_Cont{width:900px; float:right; margin-bottom:20px;}
+.loc_Cont h3{font-size:20px; line-height:20px; margin-bottom:20px;}
+.loc_Cont h3 span{color:#3399cc;}
+.fImg:after{content:""; display:block; clear:both;}
+.fImg1{float:left; width:355px; height:273px;}
+.fImg2{float:left; widht:425px; height:273px; margin-left:30px;}
+/*products_explain*/
+.p_subCont{width:900px; float:right; margin-bottom:20px;}
+.pImg1 img{width:900px; height:85px;}
+.pImg2 img{width:900px; height:500px;}
+.pImg3 img{width:900px; height:450px;}
+/*products_character*/
+.charImg1{width:900px; height:85px;}
+.charImg2{width:900px; height:375px;}
+.charImg3{width:900px; height:540px;}
+.charImg4{width:900px; height:200px;}
+/*products_test*/
+.testImg1{width:900px; height:85px;}
+.testImg2{width:900px; height:380px;}
+.testImg3{width:900px; height:469px;}
+/*customer_online*/
+.cus_subCont{width:900px; float:right; margin-bottom:20px; position:relative; padding-right:25px;}
+/*게시판*/
+#board-table { width: 100%; font-size: 13px; text-align: center; border-spacing: 0; border-collapse: collapse; margin-top: 4px; color: #555;}
+#board-table .body-cell { text-align: left; }
+#board-table th { border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; background-color: #f5f4f4; height: 36px; text-align: center; }
+#board-table td { border-top: 1px solid #ddd; border-bottom: 1px solid #ddd; height: 36px; }
+#board-table a { color: #555; text-decoration: none; }
+#board-table a:hover { text-decoration: none; color: #f5b620; }
+#pager { width: 100%; margin-top: 20px; text-align: center; }
+#pager img { width: 23px; height: 23px; vertical-align: middle; }
+#pager .page-no { margin: 0px 2px; font-size: 12px; }
+#pager .active { color: #f5b620; }
+/*catalog*/
+.cata_subCont{width:900px; padding-right:25px; position:relative; position:relative;}
+.cImg1{width:900px; height:50px; margin-bottom:10px;}
+.cImgWrap:after{content:""; display:block; clear:both;}
+.cImg2{width:292px; 390px; float:left;}
+.cImg3{width:608px; height:390px; float:right;}
+.cBtn{position:absolute; top:470px; left:3px; background:#99d5ff; border-radius:3px}
+.cBtn a{display:block; width:274px; height:30px; text-align:center; color:#fff; font-weight:bold; font-size:14px; line-height:30px;}
+.cBtn2{position:absolute; top:470px; left:313px; background:#99d5ff; border-radius:3px}
+.cBtn2 a{display:block; width:274px; height:30px; text-align:center; color:#fff; font-weight:bold; font-size:14px; line-height:30px;}

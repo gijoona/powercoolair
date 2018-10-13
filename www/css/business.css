@@ -1,0 +1,20 @@
+@CHARSET "UTF-8";
+.standards { margin: 40px 0 10px 0 }
+.sheet-table { width: 100%; text-align: center; color: #555; border-spacing: 0; padding:0; border-collapse:collapse; font-size:11px; border-top: 1px solid #f2b518; border-bottom: 1px solid #f2b518 }
+.sheet-head1 { background-color: #f2b518; color: #fff; font-size:12px; height:32px; border: 1px solid white }
+.normal-tr td { padding: 8px 4px; border-top: 1px solid silver; border-right: 1px solid silver}
+.normal-tr .last-cell { border-left: 1px solid silver; border-right: none }
+.imp td { background-color: #fef7e7 }
+
+.legend-div {}
+.legend-table { width: 100%; text-align: left; color: #555; border-spacing: 0; padding:0; border-collapse:collapse; font-size:11px; border:0; border: 1px solid #f2b518 }
+.desc-dimension2 { font-size: 13px; margin: 20px 0 5px 0 }
+.characteristics { margin:10px 0; padding: 0 14px; list-style: square; font-size: 13.6px; color:#444 }
+.characteristics li { margin: 4px 0 }
+
+.history-table { width: 100%; padding: 0; margin: 0; border-spacing: 0; border-bottom: 1px solid #dcdcdc; font-size: 11px; line-height:1em;  margin-top: 30px}
+.ht-year { font-size: 16px; font-family: Impact, Arial; color: #f1b51c; vertical-align: top; padding-top:15px !important }
+.ht-month { font-size: 9px; width: 45px; text-align: center }
+.ht-text { font-size: 11px }
+.ht-line { border-top: 1px solid #dcdcdc; padding-top: 10px }
+.ht-bottom { margin-bottom: 10px }
