@@ -102,10 +102,10 @@
 .pImg2 img{width:900px; height:500px;}
 .pImg3 img{width:900px; height:450px;}
 /*products_character*/
-.charImg1{width:900px; height:85px;}
-.charImg2{width:900px; height:375px;}
-.charImg3{width:900px; height:540px;}
-.charImg4{width:900px; height:200px;}
+.charImg1{width:900px; height:85px; display: none;}
+.charImg2{width:900px; /*height:375px;*/}
+.charImg3{width:900px; height:540px; display: none;}
+.charImg4{width:900px; height:200px; display: none;}
 /*products_test*/
 .testImg1{width:900px; height:85px;}
 .testImg2{width:900px; height:380px;}
