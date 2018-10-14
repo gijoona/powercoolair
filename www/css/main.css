@@ -65,6 +65,9 @@
 .online .text1{font-size:16px; color:#5f8fe0; font-weight:bold; padding-left:100px; background:url(../img/online.jpg) no-repeat 10px 0; height:70px; line-height:100px; }
 .online .text2{text-align:center; color:#666; font-size:13px; margin-bottom:20px;}
 .online .onlineBtn{padding:5px 20px; color:#3399cc; text-align:center; border:1px solid #ccc; margin-left:25px; margin-bottom:20px;}
+.counseling_info{padding:0px 0 10px 0; border-bottom:1px solid #ccc;}
+.counseling_info .text1{font-size:16px; color:#5f8fe0; font-weight:bold; padding-left:100px; height:70px; line-height:100px; }
+.counseling_info .text2{text-align:center; color:#666; font-size:20px; font-weight: bold; margin-bottom:20px;}
 .searchWrap{border-bottom:1px solid #ccc;  padding:20px 0 10px 0;}
 .searchWrap .searchN{width:100px; height:auto; text-indent:-9999px; background:url(../img/naver.jpg) no-repeat 20px 0;}
 .searchWrap .searchD{background:url(../img/daum.jpg) no-repeat 20px 0;; text-indent:-9999px;}
