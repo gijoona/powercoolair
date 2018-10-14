@@ -11,14 +11,18 @@ $(function(){
   subPage[7] = "news-action.php";
   subPage[8] = "news-edit.php";
   subPage[9] = "news-view.php";
+  subPage[10] = "downloads-edit.php";
+  subPage[11] = "downloads.php";
 
   var url = location.href;
   jQuery.each(subPage, function(index, item) {
     var subUrl = url.indexOf(subPage[index]);
     if(index<=5&&subUrl != -1){
       $(".estimate").addClass("on")
-    }else if(subUrl!=-1){
+    }else if(index>5&&index<=9&&subUrl!=-1){
       $(".news").addClass("on")
+    }else if(subUrl!=-1){
+      $(".catalog").addClass("on")
     };
   });
 });
@@ -27,11 +31,15 @@ $(function(){
 <?php
 	if($lang=="kr"){
     $menu_titleMenu_support_main = "고객센터";
-		$menu_titleMenu_support1 = "온라인 문의";
+    $menu_titleMenu_support1 = "카달로그";
+		$menu_titleMenu_support2 = "온라인 문의";
+    $menu_titleMenu_support3 = "뉴스 및 공지";
 
 	}else{
     $menu_titleMenu_support_main = "Service";
-		$menu_titleMenu_support1 = "Online Counseling";
+    $menu_titleMenu_support1 = "Catalog";
+		$menu_titleMenu_support2 = "Online Counseling";
+    $menu_titleMenu_support3 = "News &amp; Notice";
 	}
 ?>
 
@@ -39,8 +47,9 @@ $(function(){
   <div class="subNav">
     <ul>
       <li><a href="../support/estimate.php"><?=$menu_titleMenu_support_main?></a></li>
-      <li class="estimate"><a href="../support/estimate.php"><?=$menu_titleMenu_support1?></a></li>
-      <li class="news"><a href="../support/news.php">NEWS &amp; NOTICE</a></li>
+      <li class="catalog"><a href="../support/downloads.php"><?=$menu_titleMenu_support1?></a></li>
+      <li class="estimate"><a href="../support/estimate.php"><?=$menu_titleMenu_support2?></a></li>
+      <li class="news"><a href="../support/news.php"><?=$menu_titleMenu_support3?></a></li>
     </ul><!--.subNav-->
   </div>
   <?php

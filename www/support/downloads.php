@@ -180,7 +180,7 @@ include "../inc/header.php";
 ?>
 <div class="subContainer">
   <?php
-  include "../inc/subMenu_catalog.php";
+  include "../inc/subMenu_support.php";
   ?>
   <div class="cus_subCont"  id="content-container">
     <!-- <div id="content">

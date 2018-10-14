@@ -174,7 +174,7 @@ $row = $dao->getDetail($page_name);
   ?>
   <div class="subContainer">
     <?php
-    include "../inc/subMenu_catalog.php";
+    include "../inc/subMenu_support.php";
     ?>
     <div class="cus_subCont">
       <!-- <div id="content">
