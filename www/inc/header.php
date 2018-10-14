@@ -145,7 +145,7 @@ function logout()
 								</li>
 								-->
 								<li>
-									<a href="../support/estimate.php" class="m"><?=$menu_titleMenu_support?></a>
+									<a href="../support/downloads.php" class="m"><?=$menu_titleMenu_support?></a>
 									<ul class="sub">
 										<li><a href="../support/downloads.php" class="pt10 pb10"><?=$menu_titleMenu_promotion_catalogue?></a></li>
 										<li><a href="../support/estimate.php" class="pt10"><?=$menu_titleMenu_support_testimate?></a></li>
