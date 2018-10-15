@@ -20,7 +20,7 @@
 .gnb li .m{display:block; width:300px; color:#fff; font-weight:bold;}
 .gnb li .sub{display:none; width:180px; position:absolute; top:40px; left:50%; margin-left:-90px; z-index:100;}
 .gnb li:hover .sub{display:block;}
-.gnb li .sub li{float:none; text-align:center; border-left:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
+.gnb li .sub li{float:none; text-align:center; border-top:1px solid #ccc; border-left:1px solid #ccc; border-bottom:1px solid #ccc; border-right:1px solid #ccc;}
 .gnb li .sub li a{display:block; color:#222a79; background:#f5f4f4; font-size:12px; line-height:35px; font-weight:600; padding:5px 0;}
 /*.gnb li .sub li .pt10{padding-top:5px;}
 .gnb li .sub li .pb10{padding-bottom:5px;}*/
