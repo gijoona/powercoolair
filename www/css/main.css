@@ -55,12 +55,11 @@
 .subContainer{width:1200px; margin:70px auto;}
 .subContainer:after{content:""; display:block; clear:both;}
 .subNav{border:2px solid #ccc; margin-bottom:30px;}
-.subNav ul li.wide{text-align: center;}
 .lnb{width:200px; float:left; padding-left:25px;}
 .lnb li{padding-left:15px; border-bottom:1px solid #ccc;}
 .lnb li a{display:block; padding:13px 0; font-size:14px;}
 .lnb li:first-child{padding:5px 30px; line-height:40px; background:#f5f4f4; font-weight:bold;}
-.lnb li:first-child a{font-size:16px;}
+.lnb li:first-child a{font-size:16px; text-align: center;}
 .lnb li.wide{padding:5px 10px; line-height:40px; background:#f5f4f4; font-weight:bold;}
 .online{padding:10px 0 30px 0; border-top:1px solid #ccc; border-bottom:1px solid #ccc;}
 .online .text1{font-size:16px; color:#5f8fe0; font-weight:bold; padding-left:100px; background:url(../img/online.jpg) no-repeat 10px 0; height:70px; line-height:100px; }
