@@ -15,7 +15,7 @@
  <?php if($lang=="kr"){?>
 <div class="online">
   <p class="text1"><?=$menu_titleMenu_southText1_1?><br /></p>
-  <p class="text2">powercoolair@naver.com</p>
+  <p class="text2">powerair@superlok.com</p>
   <a href="../support/estimate.php" class="onlineBtn"><?=$menu_titleMenu_southText3?></a>
 </div><!--.online-->
 <div class="counseling_info">
@@ -34,7 +34,7 @@
 <?php }else{?>
 <div class="online">
   <p class="text1" style="text-align:right; line-height:20px; padding-top:10px; padding-right:10px; background-position:10px -10px;"><?=$menu_titleMenu_southText1_1?><br /><?=$menu_titleMenu_southText1_2?></p>
-  <p class="text2" style="margin-top:-10px;">powercoolair@naver.com</p>
+  <p class="text2" style="margin-top:-10px;">powerair@superlok.com</p>
   <a href="../support/estimate.php" class="onlineBtn" style="padding:5px 10px;"><?=$menu_titleMenu_southText3?></a>
 </div><!--.online-->
 <div class="counseling_info">
