@@ -9,9 +9,9 @@
 
 	}else{
 		$menu_titleMenu_products1 = "POWER <font color='blue'>COOL</font> &amp; <font color='red'>HEAT</font>";
-		$menu_titleMenu_products2 = "Features";
-		$menu_titleMenu_products3 = "Models &amp; Specifications";
-		$menu_titleMenu_products4 = "Ordering Information";
+		$menu_titleMenu_products2 = "FEATURES";
+		$menu_titleMenu_products3 = "MODELS &amp; SPEC.";
+		$menu_titleMenu_products4 = "ORDERING INFO.";
 	}
 ?>
 <div class="lnb">

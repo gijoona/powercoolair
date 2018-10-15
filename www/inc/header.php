@@ -43,16 +43,16 @@ if($lang=="kr"){
 	$menu_titleMenu_powerCool_location = "Location";
 
 	$menu_titleMenu_products = "POWER COOL &amp; HEAT";
-	$menu_titleMenu_products_explain = "Features";
-	$menu_titleMenu_products_character = "Models &amp; Specifications";
-	$menu_titleMenu_products_test = "Ordering Information";
+	$menu_titleMenu_products_explain = "FEATURES";
+	$menu_titleMenu_products_character = "MODELS & SPEC.";
+	$menu_titleMenu_products_test = "ORDERING INFO.";
 
 	$menu_titleMenu_promotion = "PR Center";
-	$menu_titleMenu_promotion_catalogue = "Catalogue";
+	$menu_titleMenu_promotion_catalogue = "CATALOGUE";
 
-	$menu_titleMenu_support = "Support";
-	$menu_titleMenu_support_testimate = "Q&amp;A";
-	$menu_titleMenu_support_news = " News &amp; Notice";
+	$menu_titleMenu_support = "SUPPORT";
+	$menu_titleMenu_support_testimate = "Q &amp; A";
+	$menu_titleMenu_support_news = " NEWS &amp; NOTICE";
 }
 ?>
 

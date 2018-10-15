@@ -36,10 +36,10 @@ $(function(){
     $menu_titleMenu_support3 = "뉴스 및 공지";
 
 	}else{
-    $menu_titleMenu_support_main = "Service";
-    $menu_titleMenu_support1 = "Catalog";
-		$menu_titleMenu_support2 = "Online Counseling";
-    $menu_titleMenu_support3 = "News &amp; Notice";
+    $menu_titleMenu_support_main = "SUPPORT";
+    $menu_titleMenu_support1 = "CATALOGUE";
+		$menu_titleMenu_support2 = "Q &amp; A";
+    $menu_titleMenu_support3 = "NEWS &amp; NOTICE";
 	}
 ?>
 
