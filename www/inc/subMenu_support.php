@@ -46,7 +46,7 @@ $(function(){
 <div class="lnb">
   <div class="subNav">
     <ul>
-      <li><a href="../support/estimate.php"><?=$menu_titleMenu_support_main?></a></li>
+      <li class="wide"><a href="../support/estimate.php"><?=$menu_titleMenu_support_main?></a></li>
       <li class="catalog"><a href="../support/downloads.php"><?=$menu_titleMenu_support1?></a></li>
       <li class="estimate"><a href="../support/estimate.php"><?=$menu_titleMenu_support2?></a></li>
       <li class="news"><a href="../support/news.php"><?=$menu_titleMenu_support3?></a></li>

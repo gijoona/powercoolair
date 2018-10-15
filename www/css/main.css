@@ -55,6 +55,7 @@
 .subContainer{width:1200px; margin:70px auto;}
 .subContainer:after{content:""; display:block; clear:both;}
 .subNav{border:2px solid #ccc; margin-bottom:30px;}
+.subNav ul li.wide{text-align: center;}
 .lnb{width:200px; float:left; padding-left:25px;}
 .lnb li{padding-left:15px; border-bottom:1px solid #ccc;}
 .lnb li a{display:block; padding:13px 0; font-size:14px;}
