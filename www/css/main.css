@@ -103,8 +103,8 @@
 .pImg3 img{width:900px; height:450px; display: none;}
 /*products_character*/
 .charImg1{width:900px; height:85px; display: none;}
-.charImg2{width:900px; /*height:375px;*/}
-.charImg3{width:900px; /*height:540px;*/}
+.charImg2{width:900px; margin-bottom: 80px;/*height:375px;*/}
+.charImg3{width:900px; margin-bottom: 80px;/*height:540px;*/}
 .charImg4{width:900px; /*height:200px;*/}
 /*products_test*/
 .testImg1{width:900px; /*height:85px;*/}
