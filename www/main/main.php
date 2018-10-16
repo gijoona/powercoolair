@@ -25,8 +25,8 @@ if($lang=="kr"){
 	$menu_titleMenu_contentText2_1_2 = "";
 	$menu_titleMenu_contentText2_2_1 = "Updates on POWERCOOL&HEAT, such as exhibition, news, and events.";
 	$menu_titleMenu_contentText2_2_2 = "";
-	$menu_titleMenu_contentText2_3_1 = "Learn about POWERCOOL&HEAT. Here, we introduce POWERCOOL&HEAT including the features, models, and specifications.";
-	$menu_titleMenu_contentText2_3_2 = "";
+	$menu_titleMenu_contentText2_3_1 = "Learn about POWERCOOL&HEAT. ";
+	$menu_titleMenu_contentText2_3_2 = "Here, we introduce POWERCOOL&HEAT including the features, models, and specifications.";
 	$menu_titleMenu_contentText2_3_3 = "";
 	$menu_titleMenu_conBtn1 = "ONLINE Q &amp; A";
 	$menu_titleMenu_conBtn2 = "NEWS &amp; NOTICE";
@@ -50,10 +50,10 @@ if($lang=="kr"){
                   <a href="../support/estimate.php" class="conBtn"><?=$menu_titleMenu_conBtn1?></a>
               </li>
               <li>
-              	<h3>News &amp; Notice</h3>
+              	<h3><?=$menu_titleMenu_contentTitle2?></h3>
                   <p class="text2"><?=$menu_titleMenu_contentText2_2_1?><br /><?=$menu_titleMenu_contentText2_2_2?></p>
                   <a href="../support/news.php" class="more">more</a>
-                  <a href="../support/news.php" class="conBtn"><?=$menu_titleMenu_conBtn2?></a>
+                  <a href="../support/news.php" class="conBtn" style="width:180px;"><?=$menu_titleMenu_conBtn2?></a>
               </li>
               <li class="borderR">
               	<h3><?=$menu_titleMenu_contentTitle3?></h3>
@@ -81,7 +81,7 @@ if($lang=="kr"){
                 <p class="text1">powercoolair@naver.com</p>
                 <p class="text2" style="font-size:11px; text-align:justify; text-justify:inter-word; line-height:18px;"><?=$menu_titleMenu_contentText2_1_1?><br><?=$menu_titleMenu_contentText2_1_2?></p>
                 <a href="../support/estimate.php" class="more">more</a>
-                <a href="../support/estimate.php" class="conBtn" style="width:180px;"><?=$menu_titleMenu_conBtn1?></a>
+                <a href="../support/estimate.php" class="conBtn"><?=$menu_titleMenu_conBtn1?></a>
             </li>
             <li style="height:160px;">
 							<h3><?=$menu_titleMenu_contentTitle2?></h3>
