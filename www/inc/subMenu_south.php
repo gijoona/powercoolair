@@ -7,9 +7,9 @@
 
 
 	}else{
-		$menu_titleMenu_southText1_1 = "Online";
-		$menu_titleMenu_southText1_2 = "Counseling";
-		$menu_titleMenu_southText3 = "Go to Online Counseling";
+		$menu_titleMenu_southText1_1 = "Customer";
+		$menu_titleMenu_southText1_2 = "Support";
+		$menu_titleMenu_southText3 = "ONLINE Q &amp; A";
 	}
 ?>
  <?php if($lang=="kr"){?>

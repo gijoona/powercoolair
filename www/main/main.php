@@ -44,7 +44,7 @@ if($lang=="kr"){
         	<ul class="content">
             	<li>
               	<h3><?=$menu_titleMenu_contentTitle1?></h3>
-                  <p class="text1">powercoolair@naver.com</p>
+                  <p class="text1">powerair@superlok.com</p>
                   <p class="text2" style="margin-top:-10px;"><?=$menu_titleMenu_contentText2_1_1?><br><?=$menu_titleMenu_contentText2_1_2?></p>
                   <a href="../support/estimate.php" class="more">more</a>
                   <a href="../support/estimate.php" class="conBtn"><?=$menu_titleMenu_conBtn1?></a>
@@ -78,7 +78,7 @@ if($lang=="kr"){
         	<ul class="content">
           	<li style="height:160px;">
             	<h3><?=$menu_titleMenu_contentTitle1?></h3>
-                <p class="text1">powercoolair@naver.com</p>
+                <p class="text1">powerair@superlok.com</p>
                 <p class="text2" style="font-size:11px; text-align:justify; text-justify:inter-word; line-height:18px;"><?=$menu_titleMenu_contentText2_1_1?><br><?=$menu_titleMenu_contentText2_1_2?></p>
                 <a href="../support/estimate.php" class="more">more</a>
                 <a href="../support/estimate.php" class="conBtn"><?=$menu_titleMenu_conBtn1?></a>
