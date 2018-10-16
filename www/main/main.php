@@ -21,7 +21,7 @@ if($lang=="kr"){
 	$menu_titleMenu_contentTitle1 = "CUSTOMER SUPPORT";
 	$menu_titleMenu_contentTitle2 = "NEWS &amp; NOTICE";
 	$menu_titleMenu_contentTitle3 = "POWER <font color='blue'>COOL</font> &amp; <font color='red'>HEAT</font>";
-	$menu_titleMenu_contentText2_1_1 = "If you have any inquiries about POWER COOL&amp;HEAT, please contact us via e-mail or online Q&A board any time. We are happy to listen to you and oblige.";
+	$menu_titleMenu_contentText2_1_1 = "If you have any inquiries about POWER COOL&amp;HEAT, please contact us via e-mail or online Q&amp;A board any time. We are happy to listen to you and oblige.";
 	$menu_titleMenu_contentText2_1_2 = "";
 	$menu_titleMenu_contentText2_2_1 = "Updates on POWER COOL&amp;HEAT, such as exhibitions, news, and events.";
 	$menu_titleMenu_contentText2_2_2 = "";
