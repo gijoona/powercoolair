@@ -2,7 +2,7 @@
 	if($lang=="kr"){
 		$menu_titleMenu_southText1_1 = "온라인 문의";
 		$menu_titleMenu_southText1_2 = "";
-		$menu_titleMenu_southText3 = "온라인상담 바로가기";
+		$menu_titleMenu_southText3 = "온라인문의 바로가기";
 
 
 
